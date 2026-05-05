@@ -1,17 +1,7 @@
-# Face-Driven Zero-Shot Voice Conversion with Memory-based Face-Voice Alignment
-
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2309.09470)
-[![githubio](https://img.shields.io/static/v1?message=Audio%20Samples&logo=Github&labelColor=grey&color=blue&logoColor=white&label=%20&style=flat)](https://levent9.github.io/ZeroshotFaceVC-demo/)
-
-This [paper](https://arxiv.org/pdf/2309.09470) presents a novel task, zero-shot voice conversion based on face images (zero-shot FaceVC). We leverage a memory-based face-voice alignment module for the capture of voice characteristics from face images.  A mixed supervision strategy is also introduced to mitigate the long-standing issue of the inconsistency between training and inference phases for voice conversion tasks. To obtain speaker-independent content-related representations, we transfer the knowledge from a pretrained zero-shot voice conversion model [VQMIVC](https://github.com/Wendison/VQMIVC) to our zero-shot FaceVC model. 
-
-[Paper Demo](https://levent9.github.io/ZeroshotFaceVC-demo/)
-
+# Face-Driven Zero-Shot Voice Conversion on Low Resource Languages
 
 ## Training
-- Step1. Data preparation & preprocessing
-1. Put LRS3 corpus under directory "Dataset/LRS3"
-2. Extract wav from LRS3 video
+2. Extract wav from dataset videos
 ```python
 python Tools/preprocess/extract_wav_from_video.py 
 ```
