@@ -49,7 +49,7 @@ python Tools/Preprocess/extract_spk_emb.py
 
 
 ## Citation
-If the code is used in your research, please <a class="github-button" href="https://github.com/wendison/VQMIVC" data-icon="octicon-star" aria-label="Star wendison/VQMIVC on GitHub">Star</a> our repo and cite our paper:
+The base paper we used and improved upon:
 ```
 @inproceedings{10.1145/3581783.3613825,
 author = {Sheng, Zheng-Yan and Ai, Yang and Chen, Yan-Nian and Ling, Zhen-Hua},
